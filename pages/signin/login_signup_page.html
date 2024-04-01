@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Sign Up Form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+<div class="form-container">
+    <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+    </div>
+
+    <form id="login" class="input-group">
+        <input type="text" class="input-field" placeholder="Email Address" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <button type="submit" class="submit-btn">Log in</button>
+    </form>
+
+    <form id="register" class="input-group" style="left: 450px;">
+        <input type="text" class="input-field" placeholder="Full Name" required>
+        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <button type="submit" class="submit-btn">Sign Up</button>
+    </form>
+
+</div>
+<script>
+    
+    function login(){
+    document.getElementById('register').style.left = "450px";
+    document.getElementById('login').style.left = "50px";
+    document.getElementById('btn').style.left = "0";
+}
+
+function register(){
+    document.getElementById('register').style.left = "50px";
+    document.getElementById('login').style.left = "-400px";
+    document.getElementById('btn').style.left = "110px";
+}
+</script>
+</body>
+</html>
