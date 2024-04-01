@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>social-media-16</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-850.000000, -4669.000000)" id="Group-8">
+            <g transform="translate(0.000000, 3664.000000)">
+                <g id="Group-65" transform="translate(160.000000, 953.000000)">
+                    <g id="Group-63-Copy-2" transform="translate(576.000000, 10.000000)">
+                        <g id="Group-64" transform="translate(0.000000, 42.000000)">
+                            <g id="social-media-16" transform="translate(114.400006, 0.000000)">
+                                <path d="M9.75000054,3.90000021 L21.4552012,3.90000021 C24.6831014,3.90000021 27.3000015,6.51690036 27.3000015,9.74480054 L27.3000015,21.4565012 C27.3000015,24.6831014 24.6831014,27.3000015 21.4552012,27.3000015 L9.74480054,27.3000015 C6.51690036,27.3000015 3.90000021,24.6831014 3.90000021,21.4552012 L3.90000021,9.75000054 C3.90000021,6.51950036 6.51950036,3.90000021 9.75000054,3.90000021 L9.75000054,3.90000021 Z" id="Path" stroke="#000000" stroke-width="1.95000011" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <line x1="10.5560006" y1="14.4300008" x2="10.5560006" y2="21.4500012" id="Path" stroke="#000000" stroke-width="1.95000011" stroke-linecap="round" stroke-linejoin="round"></line>
+                                <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.100001, 9.100001)" stroke="#000000" stroke-width="1.95000011">
+                                    <path d="M6.13470034,12.3500007 L6.13470034,8.25500045 C6.13470034,6.63910037 7.44380041,5.33000029 9.0597005,5.33000029 L9.0597005,5.33000029 C10.6756006,5.33000029 11.9847007,6.63910037 11.9847007,8.25500045 L11.9847007,12.3500007" id="Path"></path>
+                                    <path d="M1.45340008,1.08940006 C1.29220007,1.08940006 1.16090006,1.22070007 1.16220006,1.38190008 C1.16220006,1.54310008 1.29350007,1.67440009 1.45470008,1.67440009 C1.61590009,1.67440009 1.7472001,1.54310008 1.7472001,1.38190008 C1.7472001,1.21940007 1.61590009,1.08940006 1.45340008,1.08940006" id="Path"></path>
+                                </g>
+                                <polygon id="Path" transform="translate(15.600001, 15.600001) rotate(-90.000000) translate(-15.600001, -15.600001) " points="0 0 31.2000017 0 31.2000017 31.2000017 0 31.2000017"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
