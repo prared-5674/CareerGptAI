@@ -1279,6 +1279,31 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   </script>
   
+  <script>
+    window.onload = function() {
+      // Function to detect mobile device
+      function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      }
+  
+      // Function to show the popup
+      function showPopup() {
+        alert("Some features may only be available in the mobile version. For the best experience, please try opening this website on a desktop.");
+      }
+  
+      // Check if the website is accessed on a mobile device
+      if (isMobileDevice()) {
+        // Use localStorage to check if it's the first visit or a reload
+        if (!localStorage.getItem("visited")) {
+          // Show the popup
+          showPopup();
+          // Set 'visited' flag in localStorage
+          localStorage.setItem("visited", "true");
+        }
+      }
+    };
+  </script>
+  
 
 </body>
 </html>
